@@ -1,0 +1,139 @@
+/* Profile photo float effect */
+header img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+header img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.hero {
+  background-color: #f8f9fa;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  scroll-behavior: smooth;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+}
+.project-card {
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+/* Smooth button hover effect */
+.btn {
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Navbar hover underline */
+.navbar-nav .nav-link:hover {
+  text-decoration: underline;
+}
+/* Float effect for navbar links */
+.nav-float-btn {
+  padding: 6px 15px;
+  border-radius: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nav-float-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(14, 14, 14, 0.122);
+}
+
+/* Certificate image hover effect */
+#certificateGallery img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+#certificateGallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+html {
+  scroll-behavior: smooth;
+}
+section {
+  background: linear-gradient(to bottom right, #f4f9ff, #e9f1fc);
+  padding: 60px 0;
+}
+/* Floating effect for buttons and profile */
+.btn, .rounded-circle, .card, .nav-link {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover, .rounded-circle:hover, .card:hover, .nav-link:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+#certificateGallery {
+  background-color: #778e8e;
+  padding: 20px;
+  border-radius: 8px;
+  display: none;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+}
+
+#certificateGallery img {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 6px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#certificateGallery img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 12px rgba(255, 255, 255, 0.3);
+}
+
+/*#about {
+  background-color: #f4f9ff;
+}
+#projects {
+  background-color: #e9f1fc;
+}
+#certificates {
+  background-color: #4a4a4d;
+}
+#contact {
+  background-color: #eef7f1;
+}
+*/
